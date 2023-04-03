@@ -38,12 +38,15 @@ export default async function handler(req, res) {
       return Promise.resolve(null);
     }
   
+    /*
     console.log("this is message")
     console.log(event.message.text)
 
     console.log("this is token")
     console.log(event.replyToken)
+    */
 
+    console.log(event)
     
 
     return client.replyMessage(event.replyToken, {
@@ -51,4 +54,9 @@ export default async function handler(req, res) {
       text: event.message.text,
     });
   }
+
+  function handleText() {
+
+  }
+  
 
