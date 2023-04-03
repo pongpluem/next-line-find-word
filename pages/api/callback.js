@@ -48,7 +48,7 @@ export default async function handler(req, res) {
 
     return client.replyMessage(event.replyToken, {
       type: 'text',
-      text: event.message.text,
+      text: '123',
     });
   }
 
