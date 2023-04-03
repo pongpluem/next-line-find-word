@@ -37,31 +37,14 @@ export default async function handler(req, res) {
         });
         */
 
-        Promise.all(req.body.events.map(async (event)=>{
-            if (event.type !== 'message' || event.message.type !== 'text') {       
-                return Promise.resolve(null);
-              }
-            
-              const message = event.message.text
-              const replyToken = event.replyToken
-              console.log("this is message")
-              console.log(event.message.text)
-          
-              console.log("this is token")
-              console.log(event.replyToken)
-
-            await client.pushMessage(replyToken, {
-                type: "text",
-                text: message,
-              });
-        }))
+        Promise.all(req.body.events.map(handleEvent))
         .then((result) => res.json(result))
         .catch((err) => {
           console.error(err);
           res.status(500).end();
         });
 
-        res.status(200).json({ message: `${message}Successs` });
+       // res.status(200).json({ message: `${message}Successs` });
       } catch (e) {
         res.status(500).json({ message: `error! ${e} ` });
       }
