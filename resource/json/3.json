@@ -1,0 +1,671 @@
+{
+    "data": {
+        "word": [
+            {
+                "wordEN": "act",
+                "soundTH": "แอ๊คท",
+                "descTH": "แสดง"
+            },
+            {
+                "wordEN": "add",
+                "soundTH": "แอด",
+                "descTH": "บวก, เพิ่ม"
+            },
+            {
+                "wordEN": "age",
+                "soundTH": "เอจ",
+                "descTH": "อายุ"
+            },
+            {
+                "wordEN": "ago",
+                "soundTH": "อะโก",
+                "descTH": "…มาแล้ว"
+            },
+            {
+                "wordEN": "air",
+                "soundTH": "แอ",
+                "descTH": "อากาศ"
+            },
+            {
+                "wordEN": "all",
+                "soundTH": "ออล",
+                "descTH": "ทั้งหมด"
+            },
+            {
+                "wordEN": "and",
+                "soundTH": "แอนด",
+                "descTH": "และ"
+            },
+            {
+                "wordEN": "any",
+                "soundTH": "เอ๊นนิ",
+                "descTH": "ใดๆ , เลย"
+            },
+            {
+                "wordEN": "arm",
+                "soundTH": "อาม",
+                "descTH": "แขน"
+            },
+            {
+                "wordEN": "art",
+                "soundTH": "อาท",
+                "descTH": "ศิลปะ"
+            },
+            {
+                "wordEN": "ask",
+                "soundTH": "อาสค",
+                "descTH": "ถาม"
+            },
+            {
+                "wordEN": "bad",
+                "soundTH": "แบด",
+                "descTH": "เลว"
+            },
+            {
+                "wordEN": "bar",
+                "soundTH": "บา",
+                "descTH": "ร้านเหล่า, แท่ง"
+            },
+            {
+                "wordEN": "bat",
+                "soundTH": "แบ๊ท",
+                "descTH": "ค้างคาว"
+            },
+            {
+                "wordEN": "bed",
+                "soundTH": "เบด",
+                "descTH": "เตียง"
+            },
+            {
+                "wordEN": "big",
+                "soundTH": "บิก",
+                "descTH": "ใหญ่"
+            },
+            {
+                "wordEN": "bit",
+                "soundTH": "บิท",
+                "descTH": "ส่วน"
+            },
+            {
+                "wordEN": "box",
+                "soundTH": "บ๊อกซ",
+                "descTH": "กล่อง"
+            },
+            {
+                "wordEN": "boy",
+                "soundTH": "บอย",
+                "descTH": "เด็กชาย"
+            },
+            {
+                "wordEN": "bus",
+                "soundTH": "บัส",
+                "descTH": "รถบัส"
+            },
+            {
+                "wordEN": "but",
+                "soundTH": "บัท",
+                "descTH": "แต่"
+            },
+            {
+                "wordEN": "buy",
+                "soundTH": "บาย",
+                "descTH": "ซื้อ"
+            },
+            {
+                "wordEN": "can",
+                "soundTH": "แคน",
+                "descTH": "สามารถ, กระป๋อง"
+            },
+            {
+                "wordEN": "car",
+                "soundTH": "คา",
+                "descTH": "รถยนต์"
+            },
+            {
+                "wordEN": "cat",
+                "soundTH": "แค็ท",
+                "descTH": "แมว"
+            },
+            {
+                "wordEN": "cow",
+                "soundTH": "คาว",
+                "descTH": "วัว"
+            },
+            {
+                "wordEN": "cry",
+                "soundTH": "คราย",
+                "descTH": "ร้องให้"
+            },
+            {
+                "wordEN": "cut",
+                "soundTH": "คัท",
+                "descTH": "ตัด"
+            },
+            {
+                "wordEN": "dad",
+                "soundTH": "แดด",
+                "descTH": "พ่อ"
+            },
+            {
+                "wordEN": "day",
+                "soundTH": "เด",
+                "descTH": "วัน"
+            },
+            {
+                "wordEN": "die",
+                "soundTH": "ดาย",
+                "descTH": "ตาย"
+            },
+            {
+                "wordEN": "dog",
+                "soundTH": "ดอก",
+                "descTH": "สุนัข"
+            },
+            {
+                "wordEN": "dry",
+                "soundTH": "ดราย",
+                "descTH": "แห้ง"
+            },
+            {
+                "wordEN": "ear",
+                "soundTH": "เอีย",
+                "descTH": "หู"
+            },
+            {
+                "wordEN": "eat",
+                "soundTH": "อีท",
+                "descTH": "กิน"
+            },
+            {
+                "wordEN": "egg",
+                "soundTH": "เอก",
+                "descTH": "ไข่"
+            },
+            {
+                "wordEN": "end",
+                "soundTH": "เอ็นด",
+                "descTH": "จบ"
+            },
+            {
+                "wordEN": "far",
+                "soundTH": "ฟา",
+                "descTH": "ไกล"
+            },
+            {
+                "wordEN": "fat",
+                "soundTH": "แฟ็ท",
+                "descTH": "อ้วน"
+            },
+            {
+                "wordEN": "few",
+                "soundTH": "ฟิว",
+                "descTH": "สองสาม"
+            },
+            {
+                "wordEN": "fit",
+                "soundTH": "ฟิท",
+                "descTH": " พอดี"
+            },
+            {
+                "wordEN": "fly",
+                "soundTH": "ฟลาย",
+                "descTH": "บิน"
+            },
+            {
+                "wordEN": "for",
+                "soundTH": "ฟอ",
+                "descTH": "สำหรับ"
+            },
+            {
+                "wordEN": "fun",
+                "soundTH": "ฟัน",
+                "descTH": "สนุก"
+            },
+            {
+                "wordEN": "gas",
+                "soundTH": "แก๊ส",
+                "descTH": "แก๊ส"
+            },
+            {
+                "wordEN": "get",
+                "soundTH": "เก็ท",
+                "descTH": "ได้รับ"
+            },
+            {
+                "wordEN": "got",
+                "soundTH": "ก็อท",
+                "descTH": "ได้รับ"
+            },
+            {
+                "wordEN": "gun",
+                "soundTH": "กัน",
+                "descTH": "ปืน"
+            },
+            {
+                "wordEN": "has",
+                "soundTH": "แฮส",
+                "descTH": "มี"
+            },
+            {
+                "wordEN": "hat",
+                "soundTH": "แฮ็ท",
+                "descTH": "หมวก"
+            },
+            {
+                "wordEN": "her",
+                "soundTH": "เฮอ",
+                "descTH": "หล่อน"
+            },
+            {
+                "wordEN": "him",
+                "soundTH": "ฮิม",
+                "descTH": "เขา"
+            },
+            {
+                "wordEN": "his",
+                "soundTH": "ฮิส",
+                "descTH": "ของเขา"
+            },
+            {
+                "wordEN": "hit",
+                "soundTH": "ฮิท",
+                "descTH": "ตี"
+            },
+            {
+                "wordEN": "hot",
+                "soundTH": "ฮ็อท",
+                "descTH": "ร้อน"
+            },
+            {
+                "wordEN": "how",
+                "soundTH": "ฮาว",
+                "descTH": "อย่างไร"
+            },
+            {
+                "wordEN": "ice",
+                "soundTH": "ไอซ",
+                "descTH": "น้ำแข็ง"
+            },
+            {
+                "wordEN": "jam",
+                "soundTH": "แจม",
+                "descTH": "แยม"
+            },
+            {
+                "wordEN": "job",
+                "soundTH": "จอบ",
+                "descTH": "งาน"
+            },
+            {
+                "wordEN": "joy",
+                "soundTH": "จอย",
+                "descTH": "ความสนุก"
+            },
+            {
+                "wordEN": "key",
+                "soundTH": "คี",
+                "descTH": "กุญแจ"
+            },
+            {
+                "wordEN": "law",
+                "soundTH": "ลอ",
+                "descTH": "กฎหมาย"
+            },
+            {
+                "wordEN": "lay",
+                "soundTH": "เล",
+                "descTH": "วาง"
+            },
+            {
+                "wordEN": "leg",
+                "soundTH": "เลก",
+                "descTH": "ขา"
+            },
+            {
+                "wordEN": "let",
+                "soundTH": "เล็ท",
+                "descTH": "อนุญาตให้"
+            },
+            {
+                "wordEN": "lie",
+                "soundTH": "ลาย",
+                "descTH": "โกหก"
+            },
+            {
+                "wordEN": "lot",
+                "soundTH": "ล็อท",
+                "descTH": "กอง"
+            },
+            {
+                "wordEN": "low",
+                "soundTH": "โล",
+                "descTH": "ต่ำ"
+            },
+            {
+                "wordEN": "man",
+                "soundTH": "แมน",
+                "descTH": "ผู้ชาย"
+            },
+            {
+                "wordEN": "map",
+                "soundTH": "แม๊พ",
+                "descTH": "แผนที่"
+            },
+            {
+                "wordEN": "may",
+                "soundTH": "เม",
+                "descTH": "อาจจะ"
+            },
+            {
+                "wordEN": "men",
+                "soundTH": "เม็น",
+                "descTH": "ผู้ชาย"
+            },
+            {
+                "wordEN": "mix",
+                "soundTH": "มิกซ",
+                "descTH": "ผสม"
+            },
+            {
+                "wordEN": "new",
+                "soundTH": "นิว",
+                "descTH": "ใหม่"
+            },
+            {
+                "wordEN": "now",
+                "soundTH": "นาว",
+                "descTH": "ขณะนี้"
+            },
+            {
+                "wordEN": "off",
+                "soundTH": "อ๊อฟ",
+                "descTH": "ไกล"
+            },
+            {
+                "wordEN": "oil",
+                "soundTH": "ออยล์",
+                "descTH": "น้ำมัน"
+            },
+            {
+                "wordEN": "old",
+                "soundTH": "โอลด",
+                "descTH": "เก่า, แก่"
+            },
+            {
+                "wordEN": "one",
+                "soundTH": "วัน",
+                "descTH": "หนึ่ง"
+            },
+            {
+                "wordEN": "our",
+                "soundTH": "เอ๊าเวอะ",
+                "descTH": "ของพวกเรา"
+            },
+            {
+                "wordEN": "out",
+                "soundTH": "เอ้า",
+                "descTH": "นอก"
+            },
+            {
+                "wordEN": "own",
+                "soundTH": "โอน",
+                "descTH": "เป็นเจ้าของ"
+            },
+            {
+                "wordEN": "pay",
+                "soundTH": "เพ",
+                "descTH": "จ่าย"
+            },
+            {
+                "wordEN": "pen",
+                "soundTH": "เพ็น",
+                "descTH": "ปากกา"
+            },
+            {
+                "wordEN": "pig",
+                "soundTH": "พิก",
+                "descTH": "หมู"
+            },
+            {
+                "wordEN": "put",
+                "soundTH": "พุท",
+                "descTH": "วาง"
+            },
+            {
+                "wordEN": "red",
+                "soundTH": "เรด",
+                "descTH": "สีแดง"
+            },
+            {
+                "wordEN": "row",
+                "soundTH": "โร",
+                "descTH": "แถว"
+            },
+            {
+                "wordEN": "rub",
+                "soundTH": "รับ",
+                "descTH": "ถู"
+            },
+            {
+                "wordEN": "run",
+                "soundTH": "รัน",
+                "descTH": "วิ่ง"
+            },
+            {
+                "wordEN": "sad",
+                "soundTH": "แซด",
+                "descTH": "เศร้า"
+            },
+            {
+                "wordEN": "say",
+                "soundTH": "เซ",
+                "descTH": "พูด"
+            },
+            {
+                "wordEN": "sea",
+                "soundTH": "ซี",
+                "descTH": "ทะเล"
+            },
+            {
+                "wordEN": "see",
+                "soundTH": "ซี",
+                "descTH": "เห็น"
+            },
+            {
+                "wordEN": "set",
+                "soundTH": "เซ็ท",
+                "descTH": "จัด"
+            },
+            {
+                "wordEN": "she",
+                "soundTH": "ชี",
+                "descTH": "หล่อน"
+            },
+            {
+                "wordEN": "sit",
+                "soundTH": "ซิท",
+                "descTH": "นั่ง"
+            },
+            {
+                "wordEN": "six",
+                "soundTH": "ซิกซ",
+                "descTH": "หก"
+            },
+            {
+                "wordEN": "sky",
+                "soundTH": "สกาย",
+                "descTH": "ท้องฟ้า"
+            },
+            {
+                "wordEN": "son",
+                "soundTH": "ซัน",
+                "descTH": "ลูกชาย"
+            },
+            {
+                "wordEN": "sun",
+                "soundTH": "ซัน",
+                "descTH": "พระอาทิตย์"
+            },
+            {
+                "wordEN": "tea",
+                "soundTH": "ที",
+                "descTH": "ชา"
+            },
+            {
+                "wordEN": "ten",
+                "soundTH": "เท็น",
+                "descTH": "สิบ"
+            },
+            {
+                "wordEN": "the",
+                "soundTH": "the",
+                "descTH": "(คำนำหน้านาม)"
+            },
+            {
+                "wordEN": "tie",
+                "soundTH": "ไท",
+                "descTH": "ไท"
+            },
+            {
+                "wordEN": "too",
+                "soundTH": "ทู",
+                "descTH": "เช่นกัน"
+            },
+            {
+                "wordEN": "top",
+                "soundTH": "ท๊อพ",
+                "descTH": "ยอด"
+            },
+            {
+                "wordEN": "try",
+                "soundTH": "ทราย",
+                "descTH": "พยายาม, ลอง"
+            },
+            {
+                "wordEN": "two",
+                "soundTH": "ทู",
+                "descTH": "สอง"
+            },
+            {
+                "wordEN": "use",
+                "soundTH": "ยูส",
+                "descTH": "ใช้"
+            },
+            {
+                "wordEN": "war",
+                "soundTH": "วอ",
+                "descTH": "สงคราม"
+            },
+            {
+                "wordEN": "way",
+                "soundTH": "เว",
+                "descTH": "ทาง, หนทาง"
+            },
+            {
+                "wordEN": "wet",
+                "soundTH": "เว็ท",
+                "descTH": "เปียก"
+            },
+            {
+                "wordEN": "who",
+                "soundTH": "ฮู",
+                "descTH": "ใคร, ผู้ที่"
+            },
+            {
+                "wordEN": "why",
+                "soundTH": "วาย",
+                "descTH": "ทำไม, เหตุผลที่"
+            },
+            {
+                "wordEN": "win",
+                "soundTH": "วิน",
+                "descTH": "ชนะ"
+            },
+            {
+                "wordEN": "yes",
+                "soundTH": "เย็ส",
+                "descTH": "ใช่"
+            },
+            {
+                "wordEN": "you",
+                "soundTH": "ยู",
+                "descTH": "คุณ"
+            },
+            {
+                "wordEN": "zoo",
+                "soundTH": "สู",
+                "descTH": "สวนสัตว์"
+            },
+            {
+                "wordEN": "all",
+                "soundTH": "ออล",
+                "descTH": "ทั้งหมด"
+            },
+            {
+                "wordEN": "and",
+                "soundTH": "แอนด",
+                "descTH": "และ"
+            },
+            {
+                "wordEN": "are",
+                "soundTH": "อา",
+                "descTH": "เป็น อยู่ คือ"
+            },
+            {
+                "wordEN": "big",
+                "soundTH": "บิก",
+                "descTH": "ใหญ่"
+            },
+            {
+                "wordEN": "but",
+                "soundTH": "บัท",
+                "descTH": "แต่"
+            },
+            {
+                "wordEN": "can",
+                "soundTH": "แคน",
+                "descTH": "สามารถ"
+            },
+            {
+                "wordEN": "for",
+                "soundTH": "ฟอ",
+                "descTH": "สำหรับ"
+            },
+            {
+                "wordEN": "her",
+                "soundTH": "เฮอ",
+                "descTH": "หล่อน"
+            },
+            {
+                "wordEN": "him",
+                "soundTH": "ฮิม",
+                "descTH": "เขา"
+            },
+            {
+                "wordEN": "his",
+                "soundTH": "ฮิส",
+                "descTH": "ของเขา"
+            },
+            {
+                "wordEN": "man",
+                "soundTH": "แมน",
+                "descTH": "ผู้ชาย"
+            },
+            {
+                "wordEN": "may",
+                "soundTH": "เม",
+                "descTH": "อาจจะ"
+            },
+            {
+                "wordEN": "not",
+                "soundTH": "น็อท",
+                "descTH": "ไม่"
+            },
+            {
+                "wordEN": "now",
+                "soundTH": "นาว",
+                "descTH": "ตอนนี้"
+            }
+        ]
+    }
+}

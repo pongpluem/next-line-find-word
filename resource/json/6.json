@@ -1,0 +1,751 @@
+{
+    "data": {
+        "word": [
+            {
+                "wordEN": "afraid",
+                "soundTH": "อะเฟร๊ด",
+                "descTH": "กลัว"
+            },
+            {
+                "wordEN": "always",
+                "soundTH": "อ๊อลเวส",
+                "descTH": "เสมอ"
+            },
+            {
+                "wordEN": "animal",
+                "soundTH": "แอ๊นนะเมิล",
+                "descTH": "สัตว์"
+            },
+            {
+                "wordEN": "answer",
+                "soundTH": "อ๊านเซอะ",
+                "descTH": "ตอบ, คำตอบ"
+            },
+            {
+                "wordEN": "appear",
+                "soundTH": "อะเพี๊ย",
+                "descTH": "ปรากฏ"
+            },
+            {
+                "wordEN": "arrive",
+                "soundTH": "อะไรฝ",
+                "descTH": "มาถึง"
+            },
+            {
+                "wordEN": "banana",
+                "soundTH": "บะน๊านะ",
+                "descTH": "กล้วย"
+            },
+            {
+                "wordEN": "barber",
+                "soundTH": "บ๊าเบอะ",
+                "descTH": "ช่างตัดผม"
+            },
+            {
+                "wordEN": "basket",
+                "soundTH": "บาสกิท",
+                "descTH": "ตะกร้า"
+            },
+            {
+                "wordEN": "beauty",
+                "soundTH": "บิ๊วทิ",
+                "descTH": "ความงาม"
+            },
+            {
+                "wordEN": "become",
+                "soundTH": "บิคัม",
+                "descTH": "กลายเป็น"
+            },
+            {
+                "wordEN": "before",
+                "soundTH": "บิฟอ",
+                "descTH": "ก่อน"
+            },
+            {
+                "wordEN": "behind",
+                "soundTH": "บิไฮด",
+                "descTH": "หลัง"
+            },
+            {
+                "wordEN": "beside",
+                "soundTH": "บิไซ๊ด",
+                "descTH": "ข้างๆ"
+            },
+            {
+                "wordEN": "better",
+                "soundTH": "เบ็ทเทอะ",
+                "descTH": "ดีกว่า"
+            },
+            {
+                "wordEN": "bitter",
+                "soundTH": "บิทเทอะ",
+                "descTH": "ขม"
+            },
+            {
+                "wordEN": "boring",
+                "soundTH": "บ๊อริง",
+                "descTH": "น่าเบื่อ"
+            },
+            {
+                "wordEN": "bottom",
+                "soundTH": "บ๊อทเทิม",
+                "descTH": "ก้น"
+            },
+            {
+                "wordEN": "branch",
+                "soundTH": "บรานช",
+                "descTH": "สาขา, กิ่ง"
+            },
+            {
+                "wordEN": "bright",
+                "soundTH": "ไบรท",
+                "descTH": "สว่าง, ฉลาด"
+            },
+            {
+                "wordEN": "butter",
+                "soundTH": "บั๊ทเทอะ",
+                "descTH": "เนย"
+            },
+            {
+                "wordEN": "center",
+                "soundTH": "เซ็นเทอะ",
+                "descTH": "ศูนย์กลาง"
+            },
+            {
+                "wordEN": "chance",
+                "soundTH": "ชานซ",
+                "descTH": "โอกาส"
+            },
+            {
+                "wordEN": "change",
+                "soundTH": "เชนจ",
+                "descTH": "เปลี่ยน"
+            },
+            {
+                "wordEN": "charge",
+                "soundTH": "ชาจ",
+                "descTH": "คิดราคา"
+            },
+            {
+                "wordEN": "choose",
+                "soundTH": "ชูส",
+                "descTH": "เลือก"
+            },
+            {
+                "wordEN": "circle",
+                "soundTH": "เซ๊อเคิล",
+                "descTH": "วงกลม"
+            },
+            {
+                "wordEN": "clever",
+                "soundTH": "เคล็ฝเฝอะ",
+                "descTH": "ฉลาด"
+            },
+            {
+                "wordEN": "coffee",
+                "soundTH": "ค๊อฟิ",
+                "descTH": "กาแฟ"
+            },
+            {
+                "wordEN": "column",
+                "soundTH": "ค๊อเลิม",
+                "descTH": "คอลัมน์"
+            },
+            {
+                "wordEN": "common",
+                "soundTH": "ค๊อมเมิน",
+                "descTH": "ธรรมดา"
+            },
+            {
+                "wordEN": "corner",
+                "soundTH": "ค๊อเนอะ",
+                "descTH": "มุม"
+            },
+            {
+                "wordEN": "cotton",
+                "soundTH": "ค็อทเทิน",
+                "descTH": "ผ้าฝ้าย"
+            },
+            {
+                "wordEN": "course",
+                "soundTH": "คอส",
+                "descTH": "หลักสูตร"
+            },
+            {
+                "wordEN": "create",
+                "soundTH": "ครีเอ๊ท",
+                "descTH": "สร้างสรรค์"
+            },
+            {
+                "wordEN": "danger",
+                "soundTH": "แด๊นเจอะ",
+                "descTH": "อันตราย"
+            },
+            {
+                "wordEN": "decide",
+                "soundTH": "ดิไซด",
+                "descTH": "ตัดสินใจ"
+            },
+            {
+                "wordEN": "degree",
+                "soundTH": "ดิกรี๊",
+                "descTH": "ระดับ"
+            },
+            {
+                "wordEN": "depend",
+                "soundTH": "ดิเพ็นด",
+                "descTH": "ขึ้นอยู่กัน"
+            },
+            {
+                "wordEN": "desert",
+                "soundTH": "เด็สเสิท",
+                "descTH": "ทะเลทราย"
+            },
+            {
+                "wordEN": "design",
+                "soundTH": "ดิไซ๊น",
+                "descTH": "ออกแบบ"
+            },
+            {
+                "wordEN": "differ",
+                "soundTH": "ดิ๊ฟเฟอะ",
+                "descTH": "แตกต่าง"
+            },
+            {
+                "wordEN": "direct",
+                "soundTH": "ไดเร๊คท",
+                "descTH": "ตรง"
+            },
+            {
+                "wordEN": "divide",
+                "soundTH": "ดิไวด",
+                "descTH": "แบ่ง"
+            },
+            {
+                "wordEN": "doctor",
+                "soundTH": "ด็อคเทอะ",
+                "descTH": "หมอ"
+            },
+            {
+                "wordEN": "dollar",
+                "soundTH": "ด๊อลละ",
+                "descTH": "ดอลลาร์"
+            },
+            {
+                "wordEN": "double",
+                "soundTH": "ดั๊บเบิล",
+                "descTH": "คู่, สองเท่า"
+            },
+            {
+                "wordEN": "during",
+                "soundTH": "ดิ๊วริง",
+                "descTH": "ระหว่าง"
+            },
+            {
+                "wordEN": "effect",
+                "soundTH": "อิเฟ็คท",
+                "descTH": "ผลกระทบ"
+            },
+            {
+                "wordEN": "energy",
+                "soundTH": "เอ็นนะจิ",
+                "descTH": "พลังงาน"
+            },
+            {
+                "wordEN": "engine",
+                "soundTH": "เอ็นจิน",
+                "descTH": "เครื่องยนต์"
+            },
+            {
+                "wordEN": "enough",
+                "soundTH": "อินัฟ",
+                "descTH": "พอ"
+            },
+            {
+                "wordEN": "except",
+                "soundTH": "อิกเซ็พท",
+                "descTH": "ยกเว้น"
+            },
+            {
+                "wordEN": "expect",
+                "soundTH": "อิกซเป็คท",
+                "descTH": "คาดหมาย"
+            },
+            {
+                "wordEN": "family",
+                "soundTH": "แฟ๊มลิ",
+                "descTH": "ครอบครัว"
+            },
+            {
+                "wordEN": "famous",
+                "soundTH": "เฟ็มัส",
+                "descTH": "มีชื่อเสียง"
+            },
+            {
+                "wordEN": "farmer",
+                "soundTH": "ฟ๊าเมอะ",
+                "descTH": "เกษตรกร"
+            },
+            {
+                "wordEN": "father",
+                "soundTH": "ฟาเธอะ",
+                "descTH": "พ่อ"
+            },
+            {
+                "wordEN": "figure",
+                "soundTH": "ฟิกเกอะ",
+                "descTH": "รูปร่าง"
+            },
+            {
+                "wordEN": "finger",
+                "soundTH": "ฟิงเกอะ",
+                "descTH": "นิ้ว"
+            },
+            {
+                "wordEN": "finish",
+                "soundTH": "ฟินนิช",
+                "descTH": "จบ"
+            },
+            {
+                "wordEN": "flower",
+                "soundTH": "เฟลาเวอะ",
+                "descTH": "ดอกไม้"
+            },
+            {
+                "wordEN": "follow",
+                "soundTH": "ฟ๊อลโล",
+                "descTH": "ติดตาม"
+            },
+            {
+                "wordEN": "forest",
+                "soundTH": "ฟ๊อเร็สท",
+                "descTH": "ป่า"
+            },
+            {
+                "wordEN": "fridge",
+                "soundTH": "ฟริจ",
+                "descTH": "ตู้เย็น"
+            },
+            {
+                "wordEN": "friend",
+                "soundTH": "เฟรนด",
+                "descTH": "เพื่อน"
+            },
+            {
+                "wordEN": "garden",
+                "soundTH": "ก๊าดเดิน",
+                "descTH": "สวน"
+            },
+            {
+                "wordEN": "gather",
+                "soundTH": "แก๊เดอะ",
+                "descTH": "รวมกัน"
+            },
+            {
+                "wordEN": "govern",
+                "soundTH": "กั๊ฝเฝิน",
+                "descTH": "ปกครอง"
+            },
+            {
+                "wordEN": "greedy",
+                "soundTH": "กรี๊ดดิ",
+                "descTH": "ตะกลู, โลภ"
+            },
+            {
+                "wordEN": "ground",
+                "soundTH": "กราวด",
+                "descTH": "พื้นดิน"
+            },
+            {
+                "wordEN": "happen",
+                "soundTH": "แฮ๊พเพิน",
+                "descTH": "เกิดขึ้น"
+            },
+            {
+                "wordEN": "hunger",
+                "soundTH": "ฮั๊งเกอะ",
+                "descTH": "ความหิว"
+            },
+            {
+                "wordEN": "insect",
+                "soundTH": "อิ๊นเซ็คท",
+                "descTH": "แมลง"
+            },
+            {
+                "wordEN": "invent",
+                "soundTH": "อินเว็นท",
+                "descTH": "ประดิษฐ์"
+            },
+            {
+                "wordEN": "island",
+                "soundTH": "ไอ๊เลินด",
+                "descTH": "เกาะ"
+            },
+            {
+                "wordEN": "lawyer",
+                "soundTH": "ล๊อเยอะ",
+                "descTH": "ทนายความ"
+            },
+            {
+                "wordEN": "length",
+                "soundTH": "เล็งธ",
+                "descTH": "ความยาว"
+            },
+            {
+                "wordEN": "letter",
+                "soundTH": "เล็ทเทอะ",
+                "descTH": "จดหมาย"
+            },
+            {
+                "wordEN": "liquid",
+                "soundTH": "ลิ๊ควิด",
+                "descTH": "ของเหลว"
+            },
+            {
+                "wordEN": "listen",
+                "soundTH": "ลิ๊ซเซิน",
+                "descTH": "ฟัง"
+            },
+            {
+                "wordEN": "little",
+                "soundTH": "ลิ๊ทเทิล",
+                "descTH": "เล็ก"
+            },
+            {
+                "wordEN": "magnet",
+                "soundTH": "แม๊กเนิท",
+                "descTH": "แม่เหล็ก"
+            },
+            {
+                "wordEN": "market",
+                "soundTH": "ม๊าคิท",
+                "descTH": "ตลาด"
+            },
+            {
+                "wordEN": "matter",
+                "soundTH": "แม๊ทเทอะ",
+                "descTH": "เรื่องราว"
+            },
+            {
+                "wordEN": "method",
+                "soundTH": "เม๊ธเธิด",
+                "descTH": "วิธีการ"
+            },
+            {
+                "wordEN": "middle",
+                "soundTH": "มิ๊ดเดิล",
+                "descTH": "กลาง"
+            },
+            {
+                "wordEN": "minute",
+                "soundTH": "มิ๊นนิท",
+                "descTH": "นาที"
+            },
+            {
+                "wordEN": "modern",
+                "soundTH": "ม๊อดเดิน",
+                "descTH": "สมัยใหม่"
+            },
+            {
+                "wordEN": "moment",
+                "soundTH": "โม๊เมินท",
+                "descTH": "ช่วงขณะ"
+            },
+            {
+                "wordEN": "monkey",
+                "soundTH": "มั๊งคิ",
+                "descTH": "ลิง"
+            },
+            {
+                "wordEN": "mother",
+                "soundTH": "มั๊ดเดอะ",
+                "descTH": "แม่"
+            },
+            {
+                "wordEN": "motion",
+                "soundTH": "โม๊เชิน",
+                "descTH": "การเคลื่อนไหว"
+            },
+            {
+                "wordEN": "narrow",
+                "soundTH": "แน๊โร",
+                "descTH": "แคบ"
+            },
+            {
+                "wordEN": "nation",
+                "soundTH": "เน๊เชิน",
+                "descTH": "ชาติ"
+            },
+            {
+                "wordEN": "nature",
+                "soundTH": "เน๊เชอะ",
+                "descTH": "ธรรมชาติ"
+            },
+            {
+                "wordEN": "notice",
+                "soundTH": "โน๊ทิส",
+                "descTH": "ประกาศ"
+            },
+            {
+                "wordEN": "number",
+                "soundTH": "นั๊มเบอะ",
+                "descTH": "หมายเลข"
+            },
+            {
+                "wordEN": "object",
+                "soundTH": "อ๊อบเจ็คท",
+                "descTH": "วัตถุ, วัตถุประสงค์"
+            },
+            {
+                "wordEN": "office",
+                "soundTH": "อ๊อฟฟิส",
+                "descTH": "สำนักงาน"
+            },
+            {
+                "wordEN": "orange",
+                "soundTH": "อ๊อรินจ",
+                "descTH": "ส้ม, สีส้ม"
+            },
+            {
+                "wordEN": "oxygen",
+                "soundTH": "อ๊อกซิเจิน",
+                "descTH": "ออกซิเจน"
+            },
+            {
+                "wordEN": "pencil",
+                "soundTH": "เพ็นเซิล",
+                "descTH": "ดินสอ"
+            },
+            {
+                "wordEN": "people",
+                "soundTH": "พี๊เพิล",
+                "descTH": "ผู้คน"
+            },
+            {
+                "wordEN": "period",
+                "soundTH": "เพี๊ยเรียด",
+                "descTH": "ช่วงเวลา"
+            },
+            {
+                "wordEN": "person",
+                "soundTH": "เพ๊อเซิน",
+                "descTH": "บุคคล"
+            },
+            {
+                "wordEN": "phrase",
+                "soundTH": "เฟรซ",
+                "descTH": "วลี"
+            },
+            {
+                "wordEN": "planet",
+                "soundTH": "แพล๊นนิท",
+                "descTH": "ดาวเคราะห์"
+            },
+            {
+                "wordEN": "please",
+                "soundTH": "พลีส",
+                "descTH": "กรุณา"
+            },
+            {
+                "wordEN": "pretty",
+                "soundTH": "พริททิ",
+                "descTH": "เก๋ไก๋"
+            },
+            {
+                "wordEN": "proper",
+                "soundTH": "พร๊อพเพอะ",
+                "descTH": "เหมาะสม"
+            },
+            {
+                "wordEN": "rather",
+                "soundTH": "ร๊าเธอะ",
+                "descTH": "…มากกว่า"
+            },
+            {
+                "wordEN": "reason",
+                "soundTH": "รี๊เซิน",
+                "descTH": "เหตุผล"
+            },
+            {
+                "wordEN": "record",
+                "soundTH": "ริค๊อด",
+                "descTH": "บันทึก"
+            },
+            {
+                "wordEN": "region",
+                "soundTH": "รี๊เจิน",
+                "descTH": "ภาค"
+            },
+            {
+                "wordEN": "repeat",
+                "soundTH": "ริพี๊ท",
+                "descTH": "ทำซ้ำ"
+            },
+            {
+                "wordEN": "result",
+                "soundTH": "ริซั๊ลท",
+                "descTH": "ผล"
+            },
+            {
+                "wordEN": "school",
+                "soundTH": "สกูล",
+                "descTH": "โรงเรียน"
+            },
+            {
+                "wordEN": "search",
+                "soundTH": "เซิช",
+                "descTH": "ค้นหา"
+            },
+            {
+                "wordEN": "season",
+                "soundTH": "ซี๊เซิน",
+                "descTH": "ฤดู"
+            },
+            {
+                "wordEN": "second",
+                "soundTH": "เซ๊เคิน",
+                "descTH": "ที่สอง"
+            },
+            {
+                "wordEN": "select",
+                "soundTH": "ซิเล็คท",
+                "descTH": "เลือก"
+            },
+            {
+                "wordEN": "settle",
+                "soundTH": "เซ็ทเทิล",
+                "descTH": "ตั้งรกราก"
+            },
+            {
+                "wordEN": "should",
+                "soundTH": "ชุด",
+                "descTH": "ควรจะ"
+            },
+            {
+                "wordEN": "single",
+                "soundTH": "ซิ๊งเกิล",
+                "descTH": "โสด"
+            },
+            {
+                "wordEN": "sister",
+                "soundTH": "ซิ๊สเตอะ",
+                "descTH": "พี่สาว, น้องสาว"
+            },
+            {
+                "wordEN": "speech",
+                "soundTH": "สปีช",
+                "descTH": "คำพูด"
+            },
+            {
+                "wordEN": "spread",
+                "soundTH": "สเปรด",
+                "descTH": "ขยาย"
+            },
+            {
+                "wordEN": "spring",
+                "soundTH": "สปริง",
+                "descTH": "ฤดูใบไม้ผลิ"
+            },
+            {
+                "wordEN": "square",
+                "soundTH": "สแกว๊",
+                "descTH": "จัตุรัส"
+            },
+            {
+                "wordEN": "stream",
+                "soundTH": "สตรีม",
+                "descTH": "ลำธาร"
+            },
+            {
+                "wordEN": "street",
+                "soundTH": "สตรีท",
+                "descTH": "ถนน"
+            },
+            {
+                "wordEN": "strike",
+                "soundTH": "สไตรค",
+                "descTH": "ตี, ประท้วง"
+            },
+            {
+                "wordEN": "string",
+                "soundTH": "สตริง",
+                "descTH": "เชือก"
+            },
+            {
+                "wordEN": "strong",
+                "soundTH": "สตรอง",
+                "descTH": "แข็งแรง"
+            },
+            {
+                "wordEN": "stupid",
+                "soundTH": "สติ๊วผิด",
+                "descTH": "โง่"
+            },
+            {
+                "wordEN": "sudden",
+                "soundTH": "ซั๊ดเดิน",
+                "descTH": "ทันที"
+            },
+            {
+                "wordEN": "summer",
+                "soundTH": "ซั๊มเมอะ",
+                "descTH": "ฤดูร้อน"
+            },
+            {
+                "wordEN": "supply",
+                "soundTH": "ซะพล๊าย",
+                "descTH": "แจกจ่าย"
+            },
+            {
+                "wordEN": "symbol",
+                "soundTH": "ซิ๊มเบิล",
+                "descTH": "สัญลักษณ์"
+            },
+            {
+                "wordEN": "system",
+                "soundTH": "ซิ๊สเติม",
+                "descTH": "ระบบ"
+            },
+            {
+                "wordEN": "theirs",
+                "soundTH": "แดส",
+                "descTH": "ของพวกเขา"
+            },
+            {
+                "wordEN": "though",
+                "soundTH": "โด",
+                "descTH": "แม้ว่า"
+            },
+            {
+                "wordEN": "tomato",
+                "soundTH": "ทะเม๊โท",
+                "descTH": "มะเขือเทศ"
+            },
+            {
+                "wordEN": "toward",
+                "soundTH": "ทะว๊อด",
+                "descTH": "ไปยัง"
+            },
+            {
+                "wordEN": "travel",
+                "soundTH": "แทร๊เวิล",
+                "descTH": "เดินทาง"
+            },
+            {
+                "wordEN": "twenty",
+                "soundTH": "เทว็นทิ",
+                "descTH": "ยี่สิบ"
+            },
+            {
+                "wordEN": "valley",
+                "soundTH": "แว๊ลลิ",
+                "descTH": "หุบเขา"
+            },
+            {
+                "wordEN": "weight",
+                "soundTH": "เวท",
+                "descTH": "น้ำหนัก"
+            }
+        ]
+    }
+}

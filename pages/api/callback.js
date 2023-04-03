@@ -1,4 +1,10 @@
 const line = require('@line/bot-sdk');
+const jsonData3 = require('../../resource/json/3.json');
+const jsonData4 = require('../../resource/json/4.json');
+const jsonData5 = require('../../resource/json/5.json');
+const jsonData6 = require('../../resource/json/6.json');
+
+
 
 // create LINE SDK config from env variables
 const config = {
@@ -11,34 +17,10 @@ const config = {
 
 export default async function handler(req, res) {
     try {
-        //const message = "";        
-
-        console.log(process.env.CHANNEL_ACCESS_TOKEN)
-
-        //console.log("req")
-        //console.log(req)
-        //console.log("body")
-        //console.log(req.body)
-        //console.log("message")
-        //console.log(message)
-        /*
-        await client.pushMessage("", {
-          type: "text",
-          text: message,
-        });
-        */
-
-        /*
+        console.log(jsonData3)
+        
         Promise.all(req.body.events.map(handleEvent))
-        .then((result) => res.json(result))
-        .catch((err) => {
-          console.error(err);
-          res.status(500).end();
-        });
-        */
-
-        Promise.all(req.body.events.map(handleEvent))
-        .then((result) => res.json(result))
+        .then((result) => res.status(200).json(result))
         .catch((err) => {
           console.error(err);
           res.status(500).end();
