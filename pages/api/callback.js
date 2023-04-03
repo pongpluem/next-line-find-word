@@ -17,8 +17,8 @@ const config = {
 
 export default async function handler(req, res) {
     try {
-        console.log(jsonData3)
-        
+        //console.log(jsonData3)
+
         Promise.all(req.body.events.map(handleEvent))
         .then((result) => res.status(200).json(result))
         .catch((err) => {
