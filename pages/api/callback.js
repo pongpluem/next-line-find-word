@@ -11,7 +11,7 @@ const config = {
 
 export default async function handler(req, res) {
     try {
-        const message = "";        
+        //const message = "";        
 
         console.log(process.env.CHANNEL_ACCESS_TOKEN)
 
@@ -42,7 +42,7 @@ export default async function handler(req, res) {
                 return Promise.resolve(null);
               }
             
-              message = event.message.text
+              const message = event.message.text
               const replyToken = event.replyToken
               console.log("this is message")
               console.log(event.message.text)
