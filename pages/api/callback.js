@@ -44,10 +44,16 @@ export default async function handler(req, res) {
   }
 
   function handleEvent(event) {
-    if (event.type !== 'message' || event.message.type !== 'text') {
+    if (event.type !== 'message' || event.message.type !== 'text') {       
       return Promise.resolve(null);
     }
   
+    console.log("this is message")
+    console.log(event.message.text)
+
+    console.log("this is token")
+    console.log(event.replyToken)
+
     return client.replyMessage(event.replyToken, {
       type: 'text',
       text: event.message.text,
