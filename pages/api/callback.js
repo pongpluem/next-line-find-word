@@ -320,6 +320,9 @@ function handleText(message, replyToken, source) {
         
         if (place >= qsize) {
           //gameTime := time.Since(game.localTime)
+          let quest = game.quest
+          let sound = game.sound
+          let desc = game.desc
 
           games.delete(user);
 
@@ -342,11 +345,11 @@ function handleText(message, replyToken, source) {
             replyText(replyToken, [
               `${profile.displayName} Win!`,    
               `คำศัพท์ : ` +
-              game.quest +
+              quest +
               ` คำอ่าน : ` +
-              game.sound +
+              sound +
               ` คำแปล : ` +
-              game.desc,
+              desc,
               `Game Start! with word ` + game.quest.length + ` digits.`,
               hint,          
             ])
