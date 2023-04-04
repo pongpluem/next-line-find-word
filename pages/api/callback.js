@@ -151,7 +151,7 @@ function NewGame(message, replyToken, source, user) {
   // Overrid to Hard Mode
   data = jsonDataM;
 
-  console.log(data);
+  //console.log(data);
 
   const i = Math.floor(Math.random() * (data.Data.Word.length - 1));
 
