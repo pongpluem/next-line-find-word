@@ -317,7 +317,10 @@ function handleText(message, replyToken, source) {
       if (text.length === qsize) {
         // place find
         for (let i = qsize - 1; i >= 0; i--) {
+          console.log("texts[i] : "+texts[i])
+          console.log("quests[i] : "+quests[i])
           if (texts[i] === quests[i]) {
+            console.log("Match")
             place++;
             digit++;
             placeUsed.push(i);
