@@ -308,8 +308,8 @@ function handleText(message, replyToken, source) {
 
       let digit = 0;
       let place = 0;
-      let quests = Array.of(game.quest);
-      let texts = Array.of(text);
+      let quests = Array.of(game.quest,"");
+      let texts = Array.of(text,"");
       let placeUsed = [];
       
       console.log(quests)
