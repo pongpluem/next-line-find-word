@@ -333,13 +333,19 @@ function handleText(message, replyToken, source) {
         // find digit
         for (let k = 0; k < texts.length; k++) {
           for (let s = quests.length; s > 0; s--) {
-            if (texts[k] == quests[s - 1]) {
+            if (texts[k] === quests[s - 1]) {
               digit++;
               quests = iremove(quests, s - 1);
               break;
             }
           }
         }
+
+        console.log("place : "+place)
+        console.log("digit : "+digit)
+        console.log("texts : "+texts)
+        console.log("quests : "+quests)
+        console.log("placeUsed : "+placeUsed)
 
         if (place >= qsize) {
           //gameTime := time.Since(game.localTime)
