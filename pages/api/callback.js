@@ -62,9 +62,12 @@ function handleEvent(event) {
   if (event.replyToken && event.replyToken.match(/^(.)\1*$/)) {
     return console.log("Test hook recieved: " + JSON.stringify(event.message));
   }
-  
+
+  console.log("1");
+
   switch (event.type) {
     case "message":
+      console.log("2");
       const message = event.message;
       switch (message.type) {
         case "text":
@@ -118,7 +121,9 @@ function handleEvent(event) {
 }
 
 function NewGame(message, replyToken, source, user) {
-  Math.floor(Math.random() * 10) + 1;  
+  Math.floor(Math.random() * 10) + 1;
+
+  console.log("New1");
 
   const lv = Math.floor(Math.random() * 4) + 3;
   let data = jsonData4;
@@ -140,7 +145,8 @@ function NewGame(message, replyToken, source, user) {
       data = jsonData4;
       break;
   }
- 
+
+  console.log("New2");
 
   // Overrid to Hard Mode
   data = jsonDataM;
@@ -148,9 +154,11 @@ function NewGame(message, replyToken, source, user) {
   //console.log(data);
 
   const i = Math.floor(Math.random() * (data.data.word.length - 1));
-  
+
+  console.log(i);
 
   const word = data.data.word[i]
+  console.log(word);
 
   const q = word.wordEN;
   console.log(q);
@@ -158,6 +166,8 @@ function NewGame(message, replyToken, source, user) {
   console.log(s);
   const d = word.descTH;
   console.log(d);
+
+  console.log("New3");
 
   games.set(user, {
     userid: user,
@@ -167,6 +177,7 @@ function NewGame(message, replyToken, source, user) {
     num: 1,
   });
 
+  console.log("New4");
   console.log(games);
 
   return games.get(user);
@@ -202,7 +213,8 @@ function iremove(value, index) {
   return tmp;
 }
 
-function handleText(message, replyToken, source) {  
+function handleText(message, replyToken, source) {
+  console.log("3");
   let user = "";
   let game = null;
   let hint = "";
@@ -226,13 +238,15 @@ function handleText(message, replyToken, source) {
       }
       break;
     case "g start":
-      
+      console.log("4");
       user = getUser(source);
-      
+
+      console.log("5");
       console.log(user);
 
       game = NewGame(message, replyToken, source, user);
-      
+
+      console.log("6");
       console.log(game);
       if (Math.floor(Math.random() * 2) === 0) {
         hint = game.desc;
@@ -297,13 +311,23 @@ function handleText(message, replyToken, source) {
       let quests = Array.from(game.quest);
       let texts = Array.from(text);
       let placeUsed = [];
-            
+      
+      console.log(quests)
+      console.log(texts)
+
       let qsize = game.quest.length;
 
       if (text.length === qsize) {
         // place find
         for (let i = qsize - 1; i >= 0; i--) {
+          console.log(quests)
+          console.log(texts)
+          console.log(qsize-1)
+          console.log(i)
+          console.log("texts[i] : "+texts[i])
+          console.log("quests[i] : "+quests[i])
           if (texts[i] === quests[i]) {
+            console.log("Match")
             place++;
             digit++;
             placeUsed.push(i);
