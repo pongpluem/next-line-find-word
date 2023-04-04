@@ -72,18 +72,25 @@ function handleEvent(event) {
       switch (message.type) {
         case "text":
           return handleText(message, event.replyToken, event.source);
+          break;
         case "image":
-        //return handleImage(message, event.replyToken);
+          //return handleImage(message, event.replyToken);
+          break;
         case "video":
-        //return handleVideo(message, event.replyToken);
+          //return handleVideo(message, event.replyToken);
+          break;
         case "audio":
-        //return handleAudio(message, event.replyToken);
+          //return handleAudio(message, event.replyToken);
+          break;
         case "location":
-        //return handleLocation(message, event.replyToken);
+          //return handleLocation(message, event.replyToken);
+          break;
         case "sticker":
-        //return handleSticker(message, event.replyToken);
+          //return handleSticker(message, event.replyToken);
+          break;
         default:
           throw new Error(`Unknown message: ${JSON.stringify(message)}`);
+          break;
       }
 
     case "follow":
@@ -122,14 +129,19 @@ function NewGame(message, replyToken, source, user) {
   switch (lv) {
     case 3:
       data = jsonData3;
+      break;
     case 4:
       data = jsonData4;
+      break;
     case 5:
       data = jsonData5;
+      break;
     case 6:
       data = jsonData6;
+      break;
     default:
       data = jsonData4;
+      break;
   }
 
   // Overrid to Hard Mode
@@ -154,20 +166,18 @@ function NewGame(message, replyToken, source, user) {
 function getUser(source) {
   let user = "";
 
-  console.log(source.type)
-  console.log(source.userId)
   switch (source.type) {
     case "user":
-      console.log("1")
       user = source.userId;
+      break;
     case "group":
-      console.log("2")
       user = source.groupId;
+      break;
     case "room":
-      console.log("3")
       user = source.roomId;
+      break;
   }
-  console.log(user)
+
   return user;
 }
 
@@ -206,18 +216,18 @@ function handleText(message, replyToken, source) {
           "Bot can't use profile API without user ID"
         );
       }
-
+      break;
     case "g start":
-      console.log("4")
+      console.log("4");
       user = getUser(source);
 
-      console.log("5")
-      console.log(user)
+      console.log("5");
+      console.log(user);
 
       game = NewGame(message, replyToken, source, user);
 
-      console.log("6")
-      console.log(game)
+      console.log("6");
+      console.log(game);
       if (Math.floor(Math.random() * 2) === 0) {
         hint = game.desc;
         game.hint = 0;
@@ -233,6 +243,7 @@ function handleText(message, replyToken, source) {
         hint,
       ]);
 
+      break;
     /*
       case 'bye':
         switch (source.type) {
@@ -253,7 +264,7 @@ function handleText(message, replyToken, source) {
       games.delete(user);
 
       replyText(replyToken, [`Game Stop!`, game.quest]);
-
+      break;
     case "g hint":
       user = getUser(source);
       game = games.get(user);
@@ -269,8 +280,8 @@ function handleText(message, replyToken, source) {
       games.set(user, game);
 
       replyText(replyToken, [`Game Hint! `, hint]);
-
-    default:
+      break;
+    default: // Game verify
       user = getUser(source);
 
       game = games.get(user);
@@ -334,8 +345,9 @@ function handleText(message, replyToken, source) {
             digit,
           ]);
         }
-      } // Game verify
+      }
 
+      break;
     //console.log(`Echo message to ${replyToken}: ${message.text}`);
     //return replyText(replyToken, message.text);
   }
