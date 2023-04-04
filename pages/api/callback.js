@@ -205,8 +205,13 @@ function handleText(message, replyToken, source) {
       console.log("4")
       user = getUser(source);
 
+      console.log("5")
+      console.log(user)
+
       game = NewGame(message, replyToken, source, user);
 
+      console.log("6")
+      console.log(game)
       if (Math.floor(Math.random() * 2) === 0) {
         hint = game.desc;
         game.hint = 0;
