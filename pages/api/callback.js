@@ -153,14 +153,12 @@ function NewGame(message, replyToken, source, user) {
 
   //console.log(data);
 
-  const word = data.data.word[i]
-  console.log(word);
-
-  const i = Math.floor(Math.random() * (word.length - 1));
+  const i = Math.floor(Math.random() * (data.data.word.length - 1));
 
   console.log(i);
 
-  
+  const word = data.data.word[i]
+  console.log(word);
 
   const q = word.WordEN;
   console.log(q);
