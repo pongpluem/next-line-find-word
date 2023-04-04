@@ -258,7 +258,7 @@ function handleText(message, replyToken, source) {
 
       //games[user] = game
 
-      replyText(replyToken, [
+      return replyText(replyToken, [
         `Game Start! with word ` + game.quest.length + ` digits.`,
         hint,
       ]);
@@ -283,7 +283,7 @@ function handleText(message, replyToken, source) {
 
       games.delete(user);
 
-      replyText(replyToken, [`Game Stop!`, game.quest]);
+      return replyText(replyToken, [`Game Stop!`, game.quest]);
       break;
     case "g hint":
       user = getUser(source);
@@ -299,7 +299,7 @@ function handleText(message, replyToken, source) {
 
       games.set(user, game);
 
-      replyText(replyToken, [`Game Hint! `, hint]);
+      return replyText(replyToken, [`Game Hint! `, hint]);
       break;
     default: // Game verify
       user = getUser(source);
@@ -346,7 +346,7 @@ function handleText(message, replyToken, source) {
 
           games.delete(user);
 
-          replyText(replyToken, [
+          return replyText(replyToken, [
             `Your Win!`,
             `คำศัพท์ : ` +
               game.quest +
@@ -356,7 +356,7 @@ function handleText(message, replyToken, source) {
               game.desc,
           ]);
         } else {
-          return app.replyText(replyToken, [
+          return replyText(replyToken, [
             text,
             " ▼ \n",
             "  ตำแหน่ง : ",
