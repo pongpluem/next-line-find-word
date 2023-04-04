@@ -160,11 +160,11 @@ function NewGame(message, replyToken, source, user) {
   const word = data.data.word[i]
   console.log(word);
 
-  const q = word.WordEN;
+  const q = word.wordEN;
   console.log(q);
-  const s = word.SoundTH;
+  const s = word.soundTH;
   console.log(s);
-  const d = word.DescTH;
+  const d = word.descTH;
   console.log(d);
 
   console.log("New3");
