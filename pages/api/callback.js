@@ -123,6 +123,8 @@ function handleEvent(event) {
 function NewGame(message, replyToken, source, user) {
   Math.floor(Math.random() * 10) + 1;
 
+  console.log("New1");
+
   const lv = Math.floor(Math.random() * 4) + 3;
   let data = jsonData4;
 
@@ -144,6 +146,8 @@ function NewGame(message, replyToken, source, user) {
       break;
   }
 
+  console.log("New2");
+
   // Overrid to Hard Mode
   data = jsonDataM;
 
@@ -152,6 +156,8 @@ function NewGame(message, replyToken, source, user) {
   const s = data.Data.Word[i].SoundTH;
   const d = data.Data.Word[i].DescTH;
 
+  console.log("New3");
+
   games.set(user, {
     userid: user,
     quest: q,
@@ -159,6 +165,9 @@ function NewGame(message, replyToken, source, user) {
     desc: d,
     num: 1,
   });
+
+  console.log("New4");
+  console.log(games);
 
   return games.get(user);
 }
