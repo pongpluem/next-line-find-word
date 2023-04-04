@@ -156,11 +156,15 @@ function NewGame(message, replyToken, source, user) {
   const i = Math.floor(Math.random() * (data.Data.Word.length - 1));
 
   console.log(i);
-  const q = data.Data.Word[i].WordEN;
+
+  const word = data.data.word[i]
+  console.log(word);
+
+  const q = word.WordEN;
   console.log(q);
-  const s = data.Data.Word[i].SoundTH;
+  const s = word.SoundTH;
   console.log(s);
-  const d = data.Data.Word[i].DescTH;
+  const d = word.DescTH;
   console.log(d);
 
   console.log("New3");
