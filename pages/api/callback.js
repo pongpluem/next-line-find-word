@@ -311,12 +311,17 @@ function handleText(message, replyToken, source) {
       let quests = Array.of(game.quest);
       let texts = Array.of(text);
       let placeUsed = [];
+      
+      console.log(quests)
+      console.log(texts)
 
       let qsize = game.quest.length;
 
       if (text.length === qsize) {
         // place find
         for (let i = qsize - 1; i >= 0; i--) {
+          console.log(quests)
+          console.log(texts)
           console.log(qsize-1)
           console.log(i)
           console.log("texts[i] : "+texts[i])
