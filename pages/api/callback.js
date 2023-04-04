@@ -357,12 +357,8 @@ function handleText(message, replyToken, source) {
           ]);
         } else {
           return replyText(replyToken, [
-            text,
-            ` ▼ \n`,
-            `  ตำแหน่ง : `,
-            place,
-            ` ตัวอักษร : `,
-            digit,
+            text+` ▼ `,
+            `  ตำแหน่ง : `+ place + ` ตัวอักษร : ` + digit,
           ]);
         }
       }
