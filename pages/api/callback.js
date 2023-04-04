@@ -358,10 +358,10 @@ function handleText(message, replyToken, source) {
         } else {
           return replyText(replyToken, [
             text,
-            " ▼ \n",
-            "  ตำแหน่ง : ",
+            ` ▼ \n`,
+            `  ตำแหน่ง : `,
             place,
-            " ตัวอักษร : ",
+            ` ตัวอักษร : `,
             digit,
           ]);
         }
