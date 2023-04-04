@@ -158,10 +158,13 @@ function getUser(source) {
   console.log(source.userId)
   switch (source.type) {
     case "user":
+      console.log("1")
       user = source.userId;
     case "group":
+      console.log("2")
       user = source.groupId;
     case "room":
+      console.log("3")
       user = source.roomId;
   }
   console.log(user)
