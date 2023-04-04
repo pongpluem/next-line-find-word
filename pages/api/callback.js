@@ -155,6 +155,7 @@ function getUser(source) {
   let user = "";
 
   console.log(source.type)
+  console.log(source.userId)
   switch (source.type) {
     case "user":
       user = source.userId;
@@ -163,7 +164,7 @@ function getUser(source) {
     case "room":
       user = source.roomId;
   }
-
+  console.log(user)
   return user;
 }
 
