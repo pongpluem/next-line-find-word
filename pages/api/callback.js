@@ -154,6 +154,7 @@ function NewGame(message, replyToken, source, user) {
 function getUser(source) {
   let user = "";
 
+  console.log(source.type)
   switch (source.type) {
     case "user":
       user = source.groupId;
@@ -162,6 +163,7 @@ function getUser(source) {
     case "room":
       user = source.roomId;
   }
+
   return user;
 }
 
