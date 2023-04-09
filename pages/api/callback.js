@@ -59,10 +59,11 @@ const replyText = (token, texts) => {
 };
 
 function handleEvent(event) {
+  /*
   if (event.replyToken && event.replyToken.match(/^(.)\1*$/)) {
     return console.log("Test hook recieved: " + JSON.stringify(event.message));
   }  
-
+  */
   switch (event.type) {
     case "message":      
       const message = event.message;
@@ -89,37 +90,39 @@ function handleEvent(event) {
           throw new Error(`Unknown message: ${JSON.stringify(message)}`);
           break;
       }
-
+      break;
     case "follow":
-      return replyText(event.replyToken, "Got followed event");
-
+      //return replyText(event.replyToken, "Got followed event");
+      break;
     case "unfollow":
-      return console.log(`Unfollowed this bot: ${JSON.stringify(event)}`);
-
+      //return console.log(`Unfollowed this bot: ${JSON.stringify(event)}`);
+      break;
     case "join":
-      return replyText(event.replyToken, `Joined ${event.source.type}`);
-
+      //return replyText(event.replyToken, `Joined ${event.source.type}`);
+      break;
     case "leave":
-      return console.log(`Left: ${JSON.stringify(event)}`);
-
+      //return console.log(`Left: ${JSON.stringify(event)}`);
+      break;
     case "postback":
+      /*
       let data = event.postback.data;
       if (data === "DATE" || data === "TIME" || data === "DATETIME") {
         data += `(${JSON.stringify(event.postback.params)})`;
       }
       return replyText(event.replyToken, `Got postback: ${data}`);
-
+*/
+      break;
     case "beacon":
-      return replyText(event.replyToken, `Got beacon: ${event.beacon.hwid}`);
+     // return replyText(event.replyToken, `Got beacon: ${event.beacon.hwid}`);
+     break;
 
     default:
       throw new Error(`Unknown event: ${JSON.stringify(event)}`);
+      break;
   }
 }
 
-function NewGame(message, replyToken, source, user) {
-  Math.floor(Math.random() * 10) + 1;  
-
+function NewGame(message, replyToken, source, user) {  
   const lv = Math.floor(Math.random() * 4) + 3;
   let data = jsonData4;
 
